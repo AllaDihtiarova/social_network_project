@@ -1,9 +1,9 @@
 import { Post } from 'components/Post';
 
 export function PostContainer({ name, location, avatar, text, stats }) {
-  const followers = `${stats.followers}`
-  const views = `${stats.views}`
-  const likes = `${stats.likes}`
+  const followers = `${stats.followers}`;
+  const views = `${stats.views}`;
+  const likes = `${stats.likes}`;
 
   return (
     <Post
@@ -15,5 +15,5 @@ export function PostContainer({ name, location, avatar, text, stats }) {
       views={views}
       likes={likes}
     />
-  )
-};
+  );
+}
