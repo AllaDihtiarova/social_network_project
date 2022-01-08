@@ -1,4 +1,4 @@
-import { Post } from 'components/Post'
+import { Post } from 'components/Post';
 
 export function PostContainer({ name, location, avatar, text, stats }) {
   const followers = `${stats.followers}`
@@ -16,4 +16,4 @@ export function PostContainer({ name, location, avatar, text, stats }) {
       likes={likes}
     />
   )
-}
+};
