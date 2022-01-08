@@ -1,0 +1,25 @@
+{
+  "name": "social_network_project",
+  "version": "1.0.0",
+  "description": "project social network",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^7.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllaDihtiarova/social_network_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllaDihtiarova/social_network_project/issues"
+  },
+  "homepage": "https://github.com/AllaDihtiarova/social_network_project#readme"
+}
